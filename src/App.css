@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:wght@500&family=Raleway&display=swap');
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 550px
+}
+
+/* html {
+    overflow: hidden;
+} */
+
+/* Set gray background color and 100% height */
+.sidenav {
+    /* background-color: rgb(17, 4, 64); */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(150deg, rgba(2, 0, 36, 1) 0%, rgba(9, 30, 121, 1) 53%, rgba(63, 9, 121, 1) 100%);
+    /* background-color: #f1f1f1; */
+    color: white;
+    height: 105vh;
+    width: 35vh;
+}
+
+.text-3xl {
+    margin-right: 10vh;
+}
+
+.nav-pills>li>a {
+    width: 30vh;
+}
+
+.nav-pills>li>a {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.collapse {
+    visibility: visible !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.profile {
+    margin-top: 35vh;
+    height: 8vh;
+    width: 30vh;
+    border-radius: 5px;
+    background-color: #2561cf;
+}
+
+.font-extrabold {
+    font-family: sans-serif !important;
+}
+
+.position{
+    font-family: sans-serif !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.img {
+    border-radius: 50%;
+    margin-left: 1vh;
+    height: 5vh;
+    width: 5vh;
+    background-image: url(https://scontent.fdel8-2.fna.fbcdn.net/v/t39.30808-6/256843470_1602347836774151_3067458875684885922_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=R55qqPaEO_UAX_OWgGi&_nc_ht=scontent.fdel8-2.fna&oh=00_AfDnw5ik-u5zi201UGjxkcex5xng2bPEoYyYfwYPkUHh4g&oe=652F3BE4);
+    background-size: cover;
+    background-position: top;
+}
+
+.dollerimg {
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/1091766850/ja/%E3%83%99%E3%82%AF%E3%82%BF%E3%83%BC/%E3%83%89%E3%83%AB%E9%80%9A%E8%B2%A8%E3%82%B3%E3%82%A4%E3%83%B3-%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E3%81%AE%E5%91%A8%E3%82%8A%E3%81%AE%E7%9F%A2%E5%8D%B0%E3%82%92%E6%8C%81%E3%81%A4%E3%83%99%E3%82%AF%E3%83%88%E3%83%AB%E3%81%AE%E3%83%AD%E3%82%B4.jpg?s=612x612&w=0&k=20&c=AvUaYtHV72_DaF87tvmPAZepMXwAwXjb7Doryapczzg=);
+    background-size: cover;
+    background-position: center;
+}
+
+.dollering1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcditzfYPBPAVBcW90dqPGym4X03QSTR3cZ4jKMRecBMK_CBsInyHpRJL9sTA4Q8ujdDY&usqp=CAU);
+}
+
+.dollering2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfvdIHjT0COlgur2uxZvoY4F96wQVZmcRZqMjsbDf2nDAvn2vkqrWSgj32HAPvuMvkMMk&usqp=CAU);
+}
+
+.dollering3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkCAomoHn-cB27fmnLZtj8a_tI1N_UW4hrX1GtiYxNyXBTMFf-y2mzlkGqL2Rw0Jp0GQ&usqp=CAU);
+}
+
+.select{
+    width: 15vh;
+}
+
+.chart1{
+    margin-top: 15vh;
+    height: 15vh;
+    width: 6vh;
+}
+.chart2{
+    margin-top: 19vh;
+    height: 11vh;
+    width: 6vh;
+}
+
+.chart3{
+    margin-top: 5vh;
+    height: 25vh;
+    width: 6vh;
+    
+}
+.chart4{
+    margin-top: 13vh;
+    height: 17vh;
+    width: 6vh;
+    
+}
+.chart5{
+    margin-top: 11vh;
+    height: 19vh;
+    width: 6vh;    
+}
+.chart6{
+    margin-top: 22.5vh;
+    height: 7.5vh;
+    width: 6vh;    
+}
+.chart7{
+    margin-top: 11vh;
+    height: 19vh;
+    width: 6vh;    
+}
+.chart8{
+    margin-top: 5vh;
+    height: 25vh;
+    width: 6vh;    
+    background-color: #1111d8b7;
+}
+.chart9{
+    margin-top: 9vh;
+    height: 21vh;
+    width: 6vh;    
+}
+.chart10{
+    margin-top: 11vh;
+    height: 19vh;
+    width: 6vh;    
+}
+.chart11{
+    margin-top: 13vh;
+    height: 17vh;
+    width: 6vh;    
+}
+.chart12{
+    margin-top: 9vh;
+    height: 21vh;
+    width: 6vh;    
+}
+
+.customers{
+    height: 24vh;
+    width: 24vh;
+    border-radius: 50%;
+    background-image: url(https://www.shutterstock.com/image-vector/65-percent-circle-chart-isolated-260nw-2321227195.jpg);
+    background-size: cover;
+}
+
+.blanck{
+    height: .2vh;
+    width: screen;
+    background-color: #dadada;
+}
+
+.productImage{
+    width: 10vh;
+    height: 6vh;
+    border-radius: 5px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673827679979-f94e67381cb4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.productImage1{
+    width: 10vh;
+    height: 6vh;
+    border-radius: 5px;
+    background-image: url(https://images.unsplash.com/photo-1633596683562-4a47eb4983c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+/* On small screens, set height to 'auto' for the grid 767px*/
+@media screen and (max-width: 956px) {
+    .row.content {
+        height: auto;
+    }
+}
+
+@media (max-width: 1281px){
+    .sidenav{
+        height: 132vh;
+    }
+}
+
+@media (max-width: 856px) {
+    .searchbaar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .uphori{
+        display: none;
+    }
+
+    .productinformation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .productImage {
+        width: 10vh;
+        height: 8vh;
+    }
+
+    .productImage1 {
+        width: 10vh;
+        height: 8vh;
+    }
+}
+
+@media (max-width: 432px) {
+    .searchbaar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-3xl {
+        margin-left: 12vh;
+        text-align: center;
+    }
+
+    .text-4xl {
+        font-size: 4.25rem;
+        line-height: 4.5rem;
+    }
+
+    .heading {
+        display: flex;
+        align-items: center;
+    }
+}
